@@ -1,0 +1,52 @@
+.sectionhome {
+    background-color: rgb(255, 255, 255);
+}
+
+.wrapper {
+    height: calc(100vh - 116px);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.number {
+    border: 17px solid #ffe400;
+    padding: 45px 20px;
+    font-size: 215px;
+    font-weight: bold;
+    color: #2a71bb;
+    text-shadow: 13px 14px rgb(199 240 205);
+    box-shadow: 11px 12px black;
+}
+
+.desc {
+    margin: 21px;
+    font-size: 75px;
+    font-weight: bold;
+    color: black;
+}
+
+.button {
+    border: solid;
+    padding: 10px;
+    font-size: 20px;
+    background: none;
+    font-family: monospace;
+    box-shadow: 8px 8px;
+}
+.sloganteng {
+    text-align: center;
+    font-style: italic;
+}
+h1 {
+    margin-top: 45px;
+    margin-bottom: -50px;
+}
+.button:hover {
+    background-color: rgb(199, 240, 205);
+    box-shadow: 4px 4px red;
+    border-color: rgb(199, 240, 205);
+    cursor: pointer;
+}

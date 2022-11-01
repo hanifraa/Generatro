@@ -1,0 +1,66 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: courier new;
+}
+
+.navbar {
+    padding: 0;
+}
+.ul-navbar {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-self: center;
+}
+.about {
+    display: block;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    box-shadow: 4px 4px;
+    border: solid;
+    font-weight: bold;
+}
+.generatro {
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 3px 3px 0 #3466af, -1px -1px 0 #3466af, 1px -1px 0 #3466af,
+        -1px 1px 0 #3466af, 1px 1px 0 #3466af;
+    margin-left: 20px;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+.generatro a {
+    color: yellow;
+}
+
+/* Change the link color to #111 (black) on hover */
+li:hover {
+    background-color: rgb(199, 240, 205);
+    box-shadow: 4px 4px red;
+    border-color: rgb(199, 240, 205);
+}
+
+.about a:hover {
+    color: #3466af;
+}
+
+.title {
+    justify-self: flex-start;
+}
