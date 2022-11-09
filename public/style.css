@@ -64,3 +64,64 @@ li:hover {
 .title {
     justify-self: flex-start;
 }
+
+.marq1 {
+    font-size: 20px;
+}
+
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient(
+        -225deg,
+        #3466af 0%,
+        #f32409 29%,
+        #52ec92 67%,
+        #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 35px;
+}
+marquee {
+    margin-top: -35px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+.marq-span {
+    padding-left: 400px;
+}
+
+/* footer */
+.footer {
+    border-top: solid 5px #2a71bb;
+    margin-top: 58px;
+    display: flex;
+    justify-content: center;
+}
+h2 span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+h2 {
+    margin-top: -20px;
+}
+.footer-title {
+    color: yellow;
+    font-weight: bold;
+    text-shadow: 3px 3px 0 #3466af, -1px -1px 0 #3466af, 1px -1px 0 #3466af,
+        -1px 1px 0 #3466af, 1px 1px 0 #3466af;
+    margin-left: 20px;
+}

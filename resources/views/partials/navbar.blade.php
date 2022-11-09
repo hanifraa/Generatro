@@ -6,3 +6,5 @@
 
     </ul>
 </div>
+
+  <marquee behavior="" direction="right" scrollamount="60"><h3 class="animate-charcter">Hope you enjoy  <span class="marq-span"> Welcome to Generatro </span></h3></marquee>

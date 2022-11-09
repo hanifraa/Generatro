@@ -17,6 +17,10 @@
         @yield('container')
     </div>
 
+    <div class="footer">
+        <h2 class="footer-title"><span>Generatro</span></h2>
+    </div>
+
 </body>
 
 

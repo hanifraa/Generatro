@@ -1,6 +1,11 @@
 @extends('layouts.main')
 
 @section('container')
+
+    <div class="head-about">
+        <h1>Thanks for knowing Generatro</h1>
+    </div>
+
     <div class="about-title">
         <h3>
             About this website

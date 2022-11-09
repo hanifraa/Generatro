@@ -5,3 +5,9 @@
     box-shadow: 12px 12px limegreen;
     padding: 22px;
 }
+
+.head-about {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 25px;
+}
